@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="assets/img/Icon.png" href="assets/img/Icon.png" />
+    <title>Lascar Engineering Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">LED Community</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#division">Division</a></li>
+          <li class="link"><a href="#services">Services</a></li>
+          <li class="link"><a href="#team">Team</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav__actions">
+          <span><i class="ri-school-line"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Lascar Engineering Developer</h1>
+        <p>Small but is a key to the bright future</p>
+        <a href="#about" aria-label="Scroll to about section"
+          ><i class="ri-arrow-down-double-line"></i
+        ></a>
+      </div>
+    </header>
+
+    <!-- ABOUT US -->
+
+    <section class="section__container choose__container" id="about">
+      <img class="choose__bg" src="assets/img/dot-bg.png" alt="bg" />
+      <div class="choose__content">
+        <h2
+          class="section__header"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          About Us
+        </h2>
+        <p
+          class="section__subheader"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          LED Community atau Lascar Engineering Developer Community berdiri pada
+          tahun 2019. Merupakan suatu komunitas di SMK PGRI Telagasari yang
+          berfokus pada bidang Development <br />
+          Terdapat beberapa pembagian tim di komunitas ini yaitu:
+        </p>
+        <div class="choose__grid">
+          <div
+            class="choose__card"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-code-s-slash-line"></i></span>
+            <h4>Team Frontend Developer</h4>
+            <p></p>
+          </div>
+          <div
+            class="choose__card"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-global-line"></i></span>
+            <h4>Team Web Developer</h4>
+            <p></p>
+          </div>
+          <div
+            class="choose__card"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-shapes-line"></i></span>
+            <h4>UI/UX Designer</h4>
+            <p></p>
+          </div>
+          <div
+            class="choose__card"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-edit-2-line"></i></span>
+            <h4>Creative</h4>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="choose__image">
+        <img
+          src="assets/img/about.svg"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          alt="image"
+        />
+      </div>
+    </section>
+
+    <!-- END OF ABOUT US -->
+
+    <!-- <section class="offer__container" id="offer">
+      <div class="offer__grid__top">
+        <img src="assets/offer-1.jpg" alt="offer" />
+        <img src="assets/offer-2.jpg" alt="offer" />
+        <img src="assets/offer-3.jpg" alt="offer" />
+        <div class="offer__content">
+          <h2 class="section__header">Smart Offers</h2>
+          <p class="section__subheader">
+            Explore exclusive deals to transform your interior with style
+          </p>
+          <button class="btn">Explore Now</button>
+        </div>
+      </div>
+      <div class="offer__grid__bottom">
+        <img src="assets/offer-4.jpg" alt="offer" />
+        <img src="assets/offer-5.jpg" alt="offer" />
+        <img src="assets/offer-6.jpg" alt="offer" />
+        <img src="assets/offer-7.jpg" alt="offer" />
+      </div>
+    </section> -->
+
+    <!-- DIVISION -->
+
+    <section class="section__container craft__container" id="division">
+      <!-- FRONTEND DEVELOPER -->
+
+      <div class="craft__image" data-aos="fade-up" data-aos-duration="3000">
+        <div class="craft__image__content">
+          <img src="assets/img/developer.png" alt="image" />
+          <p>Division</p>
+          <h4>Frontend Developer</h4>
+        </div>
+        <a onclick="openModal('frontend')"
+          ><i class="ri-arrow-right-up-line"></i
+        ></a>
+      </div>
+
+      <!-- WEB DEVELOPER -->
+
+      <div class="craft__image" data-aos="fade-up" data-aos-duration="3000">
+        <div class="craft__image__content">
+          <img src="assets/img/developers.png" alt="image" />
+          <p>Division</p>
+          <h4>Web Developer</h4>
+        </div>
+        <a onclick="openModal('web')"><i class="ri-arrow-right-up-line"></i></a>
+      </div>
+
+      <!-- UI/UX DESIGNER -->
+
+      <div class="craft__image" data-aos="fade-up" data-aos-duration="3000">
+        <div class="craft__image__content">
+          <img src="assets/img/designer.png" alt="image" />
+          <p>Division</p>
+          <h4>UI/UX Designer</h4>
+        </div>
+        <a onclick="openModal('ui')"><i class="ri-arrow-right-up-line"></i></a>
+      </div>
+
+      <!-- CREATIVE -->
+
+      <div class="craft__image" data-aos="fade-up" data-aos-duration="3000">
+        <div class="craft__image__content">
+          <img src="assets/img/creative.png" alt="image" />
+          <p>Division</p>
+          <h4>Creative</h4>
+        </div>
+        <a onclick="openModal('creative')"
+          ><i class="ri-arrow-right-up-line"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- DIVISION MODAL -->
+
+    <!-- FRONTEND MODAL -->
+    <div id="frontendModal" class="modal">
+      <div class="modal-content animate__animated animate__fadeIn">
+        <span onclick="closeModal('frontend')" class="close">&times;</span>
+        <h2>Frontend Developer</h2>
+        <p>
+          Front-end developers bertanggung jawab untuk mengembangkan tampilan
+          dan interaksi pengguna pada website atau aplikasi, fokus pada aspek
+          visual dan fungsional yang dapat dilihat oleh pengguna akhir. Mereka
+          menggunakan bahasa pemrograman seperti HTML, CSS, dan JavaScript untuk
+          menciptakan antarmuka pengguna yang responsif dan menarik.
+        </p>
+      </div>
+    </div>
+
+    <!-- WEB DEVELOPER MODAL -->
+    <div id="webModal" class="modal">
+      <div class="modal-content animate__animated animate__fadeIn">
+        <span onclick="closeModal('web')" class="close">&times;</span>
+        <h2>Web Developer</h2>
+        <p>
+          Seorang web developer bertanggung jawab untuk merancang, Web
+          developers, di sisi lain, berfokus pada pengembangan backend dari
+          sebuah website atau aplikasi. Mereka bekerja dengan server, database,
+          dan aplikasi logika untuk memastikan bahwa website atau aplikasi
+          berfungsi dengan lancar. Mereka dapat menggunakan berbagai bahasa
+          pemrograman seperti Python, Ruby, atau Java untuk membangun dan
+          memelihara infrastruktur teknis yang mendukung fungsi keseluruhan dari
+          sebuah proyek.
+        </p>
+      </div>
+    </div>
+
+    <!-- UI/UX Designer -->
+
+    <div id="uiModal" class="modal">
+      <div class="modal-content animate__animated animate__fadeIn">
+        <span onclick="closeModal('ui')" class="close">&times;</span>
+        <h2>UI/UX Designer</h2>
+        <p>
+          UI designers, atau desainer antarmuka pengguna, bertanggung jawab
+          untuk merancang elemen visual dari website atau aplikasi agar dapat
+          memberikan pengalaman pengguna yang optimal. Mereka memperhatikan
+          estetika, kegunaan, dan konsistensi desain, sering kali menggunakan
+          alat seperti Adobe XD atau Sketch untuk membuat prototipe desain dan
+          bekerja sama dengan tim pengembang untuk mengimplementasikannya.
+        </p>
+      </div>
+    </div>
+
+    <!-- CREATIVE MODAL -->
+
+    <div id="creativeModal" class="modal">
+      <div class="modal-content animate__animated animate__fadeIn">
+        <span onclick="closeModal('creative')" class="close">&times;</span>
+        <h2>Creative</h2>
+        <p>
+          Tim kreatif, di sisi lain, mungkin terdiri dari berbagai peran seperti
+          desainer grafis, penulis konten, dan spesialis pemasaran. Mereka
+          bekerja bersama untuk menghasilkan ide-ide kreatif dan konten yang
+          menarik untuk mempromosikan produk atau layanan. Tim kreatif dapat
+          terlibat dalam pengembangan merek, kampanye iklan, dan strategi
+          pemasaran secara keseluruhan.
+        </p>
+      </div>
+    </div>
+
+    <!-- END DIVISION MODAL -->
+
+    <section class="section__container modern__container" id="services">
+      <div class="modern__image">
+        <img src="assets/img/dot-bg.png" alt="bg" class="modern__bg" />
+        <img
+          src="assets/img/ppdb.png"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          alt="modern"
+          class="modern__img-1"
+        />
+        <img
+          src="assets/img/about.svg"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          alt="modern"
+          class="modern__img-2"
+        />
+        <img
+          src="assets/img/led.jpg"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          alt="modern"
+          class="modern__img-3"
+        />
+      </div>
+      <div class="modern__content">
+        <h2 class="section__header" data-aos="fade-up" data-aos-duration="3000">
+          What we do
+        </h2>
+        <p
+          class="section__subheader"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          Di LED Community, kami belajar mengenai bidang pengembangan situs web.
+          Melalui kerja sama tim, kami terus meningkatkan keterampilan dan
+          keahlian kami di bidang ini. Selain itu, kami dengan antusias
+          mengikuti lomba pengembangan situs web sebagai wujud kegigihan dan
+          semangat kami untuk mengukir prestasi.
+        </p>
+        <div class="modern__grid">
+          <!-- <div
+            class="modern__card"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Our team specializes in creating customized interior designs that
+              embrace modern aesthetics.
+            </p>
+          </div>
+          <div
+            class="modern__card"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              We stay at the forefront of design trends, ensuring your space is
+              stylish and innovative.
+            </p>
+          </div>
+          <div
+            class="modern__card"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Modern interior design isn't just about aesthetics; it's about
+              functionality and comfort too.
+            </p>
+          </div>
+          <div
+            class="modern__card"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              We take care of all aspects of the design process, from concept to
+              procurement and installation.
+            </p>
+          </div> -->
+        </div>
+        <a
+          href="mailto:fitramuhammadanugrah@gmail.com"
+          data-aos="fade-left"
+          class="btn"
+          data-aos-duration="3000"
+          >Join Us!</a
+        >
+      </div>
+    </section>
+
+    <!-- OUR TEAM -->
+    <section
+      class="gallery"
+      data-aos="fade-down"
+      data-aos-duration="3000"
+      id="team"
+    >
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Team</h2>
+          <p>Meet the individuals who are in the LED Community.</p>
+        </div>
+        <div class="row">
+          <div class="gallery-filter">
+            <span class="filter-item active" data-filter="all">all</span>
+            <span class="filter-item" data-filter="frontend"
+              >frontend developer</span
+            >
+            <span class="filter-item" data-filter="web">web developer</span>
+            <span class="filter-item" data-filter="ui">ui/ux designer</span>
+            <span class="filter-item" data-filter="creative">creative</span>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-down" data-aos-duration="3000">
+          <div class="gallery-item web">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Fahmi.svg" alt="web" />
+              <figcaption>
+                <h3>Fahmi Andika</h3>
+                <p>Web Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item frontend">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Hario.svg" alt="frontend" />
+              <figcaption>
+                <h3>Hario Saloko</h3>
+                <p>Frontend Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item ui">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Malda.svg" alt="ui" />
+              <figcaption>
+                <h3>Malda Soraya Farhatien</h3>
+                <p>UI/UX Designer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <!-- FRONTEND DEVELOPER -->
+
+          <div class="gallery-item frontend">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Adit.svg" alt="frontend" />
+              <figcaption>
+                <h3>Adittia Sulaeman</h3>
+                <p>Frontend Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item ui">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Alya.svg" alt="ui" />
+              <figcaption>
+                <h3>Alya Azhar Salsabila</h3>
+                <p>UI/UX Designer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item frontend">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Hilman.svg" alt="frontend" />
+              <figcaption>
+                <h3>Muhammad Hilman Nursalam</h3>
+                <p>Frontend Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item creative">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Asti.svg" alt="ui" />
+              <figcaption>
+                <h3>Asti Sri Lestari</h3>
+                <p>Creative</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item frontend">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Fitra.svg" alt="frontend" />
+              <figcaption>
+                <h3>Fitra Muhamamd Anugrah</h3>
+                <p>Frontend Developer</p>
+                <a
+                  href="https://www.instagram.com/craftepxly"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com/Samunee"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/fitra-muhammad-anugrah"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item creative">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Amelia.svg" alt="ui" />
+              <figcaption>
+                <h3>Amelia</h3>
+                <p>Creative</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <!-- WEB DEVELOPER -->
+
+          <div class="gallery-item ui">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Mira.svg" alt="ui" />
+              <figcaption>
+                <h3>Mirabela</h3>
+                <p>UI/UX Designer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item web">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Asep.svg" alt="web" />
+              <figcaption>
+                <h3>Asep Ridwan</h3>
+                <p>Web Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item web">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Firman.svg" alt="web" />
+              <figcaption>
+                <h3>Firman Saputra</h3>
+                <p>Web Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item web">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Firza.svg" alt="web" />
+              <figcaption>
+                <h3>Firza Gian Muharram</h3>
+                <p>Web Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item web">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Maulana.svg" alt="web" />
+              <figcaption>
+                <h3>Maulana Aenul Yakin</h3>
+                <p>Web Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item web">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Fardhan.svg" alt="web" />
+              <figcaption>
+                <h3>Muhammad Fardhan Amirulloh</h3>
+                <p>Web Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item web">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Anisa.svg" alt="web" />
+              <figcaption>
+                <h3>Anisa Rahayu</h3>
+                <p>Web Developer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <!-- UI/UX Designer -->
+
+          <div class="gallery-item ui">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Riefida.svg" alt="ui" />
+              <figcaption>
+                <h3>Riefida Destira Fidyaningtias</h3>
+                <p>UI/UX Designer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item ui">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Maryani.svg" alt="ui" />
+              <figcaption>
+                <h3>Maryani</h3>
+                <p>UI/UX Designer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item ui">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Mini.svg" alt="ui" />
+              <figcaption>
+                <h3>Mini Natalogi</h3>
+                <p>UI/UX Designer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item ui">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Dian.svg" alt="ui" />
+              <figcaption>
+                <h3>Dian Andini</h3>
+                <p>UI/UX Designer</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <!-- CREATIVE -->
+
+          <div class="gallery-item creative">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Syifa.svg" alt="ui" />
+              <figcaption>
+                <h3>Nurasyifa</h3>
+                <p>Creative</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item creative">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Dzaki.svg" alt="ui" />
+              <figcaption>
+                <h3>Dzaki Asyrof As Shodiq</h3>
+                <p>Creative</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="gallery-item creative">
+            <div class="gallery-item-inner modern__img-4">
+              <img src="assets/img/team/Reno.svg" alt="ui" />
+              <figcaption>
+                <h3>Reno Adikha Putra</h3>
+                <p>Creative</p>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a
+                  href="https://https://www.linkedin.com"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF OUR TEAM -->
+
+    <footer class="footer">
+      <div class="section__container footer__bar">
+        <div class="footer__logo">
+          <h4><a href="#">LED Community</a></h4>
+          <p>© 2024 samunee. All right reserved</p>
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#">About</a></li>
+          <li class="footer__link"><a href="#">Partnership</a></li>
+          <li class="footer__link"><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+
+    <script>
+      // GALLERY FILTER (OUR TEAM)
+      const filterContainer = document.querySelector(".gallery-filter"),
+        galleryItems = document.querySelectorAll(".gallery-item");
+
+      filterContainer.addEventListener("click", (event) => {
+        if (event.target.classList.contains("filter-item")) {
+          filterContainer.querySelector(".active").classList.remove("active");
+          event.target.classList.add("active");
+          const filterValue = event.target.getAttribute("data-filter");
+          galleryItems.forEach((item) => {
+            if (item.classList.contains(filterValue) || filterValue === "all") {
+              item.classList.remove("hide");
+              item.classList.add("show");
+            } else {
+              item.classList.remove("show");
+              item.classList.add("hide");
+            }
+          });
+        }
+      });
+
+      // DIVISION MODAL
+
+      function openModal(id) {
+        document.getElementById(id + "Modal").style.display = "block";
+      }
+
+      function closeModal(id) {
+        document.getElementById(id + "Modal").style.display = "none";
+      }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- END OF SCRIPT -->
+  </body>
+</html>
